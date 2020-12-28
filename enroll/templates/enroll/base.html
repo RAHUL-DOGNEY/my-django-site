@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger">This is CRUD Project</h2>
+    </div>
+    {% block content%}
+      <div>
+      </div>
+    {% endblock %}
+
+
+<script src="{% static 'enroll/js/jquery.js' %}"></script>
+<script src="{% static 'enroll/js/proper.js' %}"></script>
+<script src="{% static 'enroll/js/js.js' %}"></script>
+
+</body>
+</html>
