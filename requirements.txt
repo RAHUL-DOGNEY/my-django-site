@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 appdirs==1.4.4
 argon2-cffi==20.1.0
 asgiref==3.2.10
@@ -94,3 +95,9 @@ webencodings==0.5.1
 whitenoise==5.2.0
 widgetsnbextension==3.5.1
 wrapt==1.12.1
+=======
+asgiref==3.3.1
+Django==3.1.4
+pytz==2020.5
+sqlparse==0.4.1
+>>>>>>> b0929b2c4739fadf89c14fb567ec8429685be605
