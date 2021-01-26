@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path
 from enroll import views
 urlpatterns = [
-    path('', admin.site.urls),
-    path('main/',views.add_show,name='addshow'),
+    path('admin', admin.site.urls),
+    path('',views.add_show,name='addshow'),
 ]
